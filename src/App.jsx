@@ -4,6 +4,7 @@ import React from "react";
 import Text from "./Components/text";
 import PruebaHooks from "./Components/PruebaHooks";
 import ListaNombre from "./Components/ListaNombre";
+import Pokemones from "./Components/Pokemon";
 
 // Componentes
 // class App extends React.Component{
@@ -18,10 +19,11 @@ import ListaNombre from "./Components/ListaNombre";
 
 const App3 = () =>{
     return (<div>
-        <Text name="thony" age={22}/>
+        {/* <Text name="thony" age={22}/>
         <Text name="Javier" age={23}/>
         <PruebaHooks/>
-        <ListaNombre/>
+        <ListaNombre/> */}
+        <Pokemones/>
         </div>)
 }
 
