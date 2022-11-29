@@ -7,6 +7,12 @@ import ListaNombre from "./Components/ListaNombre";
 import Pokemones from "./Components/Pokemon";
 import Referencias from "./Components/Referencias";
 import PokemonesHooks from "./Components/PokemonesHooks";
+import Style from "./Components/style";
+
+import NavScrollExample from "./Components/Bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import CrudApp from "./Components/Crud/CrudApp";
 
 // Componentes
 // class App extends React.Component{
@@ -34,6 +40,11 @@ const App3 = () =>{
         <Referencias></Referencias>
         <hr/>
         <PokemonesHooks></PokemonesHooks>
+        <hr/>
+        <Style></Style>
+        <hr/>
+        <NavScrollExample></NavScrollExample>
+        {/* <CrudApp></CrudApp> */}
         </div>)
 }
 

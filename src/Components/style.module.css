@@ -1,0 +1,7 @@
+.error{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
